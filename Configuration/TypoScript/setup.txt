@@ -1,0 +1,11 @@
+# Module configuration
+module.tx_in2help {
+	persistence {
+		storagePid = {$module.tx_in2help.persistence.storagePid}
+	}
+	view {
+		templateRootPath = {$module.tx_in2help.view.templateRootPath}
+		partialRootPath = {$module.tx_in2help.view.partialRootPath}
+		layoutRootPath = {$module.tx_in2help.view.layoutRootPath}
+	}
+}
