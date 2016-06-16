@@ -1,2 +1,2 @@
 # cat=basic//010; type=int+; label= PID of Pattern Page: the PID of the page which contains the Design Pattern.
-designPatternPid = 210
+designPatternPid = 0

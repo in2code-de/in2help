@@ -1,4 +1,5 @@
 <?php
+namespace In2code\In2help\Controller;
 
 /***************************************************************
  *  Copyright notice
@@ -23,6 +24,7 @@
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 
 /**
@@ -32,11 +34,13 @@
  * @license http://www.gnu.org/licenses/lgpl.html GNU Lesser General Public License, version 3 or later
  *
  */
-class Tx_In2help_Controller_HelpController extends Tx_Extbase_MVC_Controller_ActionController {
-	public function indexAction() {
-		$confarr = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['in2help']);
-		$this->view->assign('confarr', $confarr);
-	}
+class HelpController extends ActionController
+{
+    public function indexAction()
+    {
+        $confarr = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['in2help']);
+        $this->view->assign('confarr', $confarr);
+    }
 }
 
 ?>

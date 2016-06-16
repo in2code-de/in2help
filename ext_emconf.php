@@ -11,34 +11,32 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Online-Documentation',
-	'description' => 'Provides the help for pages and contentelements with design patterns',
-	'category' => 'module',
-	'author' => 'Martin Huber',
-	'author_email' => 'martin.huber@in2code.de',
-	'author_company' => 'in2code GmbH',
-	'shy' => '',
-	'priority' => '',
-	'module' => '',
-	'state' => 'stable',
-	'internal' => '',
-	'uploadfolder' => '0',
-	'createDirs' => '',
-	'modify_tables' => '',
-	'clearCacheOnLoad' => 0,
-	'lockType' => '',
-	'version' => '1.1.0',
-	'constraints' => array(
-		'depends' => array(
-			'extbase' => '1.4',
-			'fluid' => '1.4',
-			'typo3' => '4.6',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
+    'title' => 'Online-Documentation',
+    'description' => 'Provides the help for pages and contentelements with design patterns',
+    'category' => 'module',
+    'author' => 'Martin Huber',
+    'author_email' => 'martin.huber@in2code.de',
+    'author_company' => 'in2code GmbH',
+    'shy' => '',
+    'priority' => '',
+    'module' => '',
+    'state' => 'stable',
+    'internal' => '',
+    'uploadfolder' => '0',
+    'createDirs' => '',
+    'modify_tables' => '',
+    'clearCacheOnLoad' => 0,
+    'lockType' => '',
+    'version' => '2.0.0',
+    'constraints' => array(
+        'depends' => array(
+            'extbase' => '1.4',
+            'fluid' => '1.4',
+            'typo3' => '7.6-',
+        ),
+        'conflicts' => array(),
+        'suggests' => array(),
+    ),
 );
 
 ?>
