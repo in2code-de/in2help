@@ -25,6 +25,4 @@ if (TYPO3_MODE === 'BE') {
 
 }
 
-t3lib_extMgm::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Online-Documentation');
-
-?>
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Online-Documentation');
