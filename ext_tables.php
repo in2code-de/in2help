@@ -1,28 +1,37 @@
 <?php
 if (!defined('TYPO3_MODE')) {
-    die ('Access denied.');
+    die('Access denied.');
 }
 
-if (TYPO3_MODE === 'BE') {
+call_user_func(
+    function () {
 
-    /**
-     * Registers a Backend Module
-     */
-    \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-        'In2code.' . $_EXTKEY,
-        'help',                    // Make module a submodule of 'help'
-        'm1',                    // Submodule key
-        '',                        // Position
-        array(
-            'Help' => 'index'
-        ),
-        array(
-            'access' => 'user,group',
-            'icon' => 'EXT:' . $_EXTKEY . '/Resources/Public/Icons/module_help.svg',
-            'labels' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_in2help.xlf',
-        )
-    );
+        if (TYPO3_MODE === 'BE') {
 
-}
+            /**
+             * Registers a Backend Module
+             */
+            \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
+                'In2code.in2help',
+                'help',
+                'm1',
+                '',
+                [
+                    'Help' => 'index'
+                ],
+                [
+                    'access' => 'user,group',
+                    'icon' => 'EXT:in2help/Resources/Public/Icons/module_help.svg',
+                    'labels' => 'LLL:EXT:in2help/Resources/Private/Language/locallang_in2help.xlf',
+                ]
+            );
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Online-Documentation');
+        }
+
+        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+            'in2help',
+            'Configuration/TypoScript',
+            'Online-Documentation'
+        );
+    }
+);

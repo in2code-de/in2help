@@ -2,7 +2,7 @@
     "name": "in2code/in2help",
     "description": "Provides the help for pages and contentelements with design patterns",
     "type": "typo3-cms-extension",
-    "license": "GPL-3.0",
+    "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
             "In2code\\In2help\\": "Classes"

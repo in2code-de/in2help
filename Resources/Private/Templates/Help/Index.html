@@ -1,11 +1,3 @@
-<f:if condition="{confarr.designPatternPid}">
-	<f:then>
-		<iframe src="../index.php?id={confarr.designPatternPid}" width="100%" height="98%" name="in2helpview">
-			<p>Ihr Browser kann leider keine eingebetteten Frames anzeigen!</p>
-		</iframe>
-	</f:then>
-	<f:else>
-		<h1>Error</h1>
-		<p>Missing configuration in extconf. Please set up designPatternPid!</p>
-	</f:else>
-</f:if>
+<iframe src="{url}" width="100%" height="98%" name="in2helpview">
+	<p>Ihr Browser kann leider keine eingebetteten Frames anzeigen!</p>
+</iframe>
