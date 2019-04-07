@@ -1,6 +1,6 @@
 {
     "name": "in2code/in2help",
-    "description": "Provides the help for pages and contentelements with design patterns",
+    "description": "Provides a help module, to display a page in the backend. This can be used for editors documentation",
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
     "autoload": {
