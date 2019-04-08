@@ -38,3 +38,9 @@ You can set up PageTS or UserTS to force users, to get this module as start
 module.
 
 setup.override.startModule = help_In2helpM1
+
+## Changelog
+
+| Version    | Date       | State      | Description                                                                  |
+| ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
+| 4.0.0      | 2019-04-08 | Task       | Release for TYPO3 9.5                                                        |

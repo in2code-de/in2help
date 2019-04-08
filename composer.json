@@ -1,11 +1,26 @@
 {
     "name": "in2code/in2help",
     "description": "Provides a help module, to display a page in the backend. This can be used for editors documentation",
+    "keywords": ["iframe", "onlinehelp", "helpmodule"],
+    "homepage": "https://github.com/in2code-de/in2help",
+    "authors": [
+        {
+            "name": "Martin Huber",
+            "email": "martin.huber@in2code.de"
+        }
+    ],
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": ">=8.7.0 <9.6.0"
+    },
+    "replace": {
+        "in2help": "self.version",
+        "typo3-ter/in2help": "self.version"
+    },
     "autoload": {
         "psr-4": {
-            "In2code\\In2help\\": "Classes"
+            "In2code\\In2help\\": "Classes/"
         }
     }
 }
