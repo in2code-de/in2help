@@ -27,11 +27,5 @@ call_user_func(
             );
 
         }
-
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-            'in2help',
-            'Configuration/TypoScript',
-            'Online-Documentation'
-        );
     }
 );
