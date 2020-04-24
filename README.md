@@ -2,7 +2,7 @@
 
 ## What does it do?
 
-The extension adds an additional module to the help section in the backend of
+The extension adds a module to the help section in the backend of
 your installation. You can define a page ID, which is loaded into this module.
 The idea is, that you can provide your editors an entry point, into the
 editors documentation.
@@ -44,3 +44,4 @@ setup.override.startModule = help_In2helpM1
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
 | 4.0.0      | 2019-04-08 | Task       | Release for TYPO3 9.5                                                        |
+| 5.0.0      | 2020-04-24 | Task       | Release for TYPO3 10.4                                                       |

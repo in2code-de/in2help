@@ -51,7 +51,7 @@ class UrlService
      */
     protected function getConfiguration(): array
     {
-        return (array)unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['in2help']);
+        return $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['in2help'];
     }
 
     /**

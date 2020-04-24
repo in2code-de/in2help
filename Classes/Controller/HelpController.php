@@ -10,7 +10,6 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
  */
 class HelpController extends ActionController
 {
-
     /**
      * @return void
      */
