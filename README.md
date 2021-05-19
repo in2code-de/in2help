@@ -45,3 +45,4 @@ setup.override.startModule = help_In2helpM1
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
 | 4.0.0      | 2019-04-08 | Task       | Release for TYPO3 9.5                                                        |
 | 5.0.0      | 2020-04-24 | Task       | Release for TYPO3 10.4                                                       |
+| 5.0.1      | 2021-05-19 | Task       | Add github workflow; add extensionkey to composer.json                       |
