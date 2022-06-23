@@ -1,3 +1,13 @@
-<iframe src="{url}" width="100%" height="98%" name="in2helpview" style="background: white; border: none;">
-	<p>Ihr Browser kann leider keine eingebetteten Frames anzeigen!</p>
-</iframe>
+<f:if condition="{error}">
+	<f:else>
+		<iframe src="{url}" width="100%" height="98%" name="in2helpview" style="background: white; border: none;">
+			<p>Your browser does not support frames!</p>
+		</iframe>
+	</f:else>
+	<f:then>
+		<div class="alert alert-danger" role="alert" style="background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; padding: .75rem 1.25rem;">
+			<p><strong>EXT:in2help</strong></p>
+			<p>{error.message} ({error.code})</p>
+		</div>
+	</f:then>
+</f:if>

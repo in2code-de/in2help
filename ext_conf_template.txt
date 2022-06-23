@@ -1,5 +1,2 @@
-# cat=basic//010; type=int+; label= PID of Pattern Page: the PID of the page which contains the Design Pattern.
-designPatternPid = 0
-
-# cat=basic//020; type=text; label= FE-Domain: Add a domain for the frontend rendering (optional if FE domain is different to BE domain - e.g. https://www.domain.org)
-domain =
+# cat=basic//010; type=int+; label= PID of help page: the PID of the page which contains the home of the documentation to show
+helpPid = 0

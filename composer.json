@@ -5,14 +5,15 @@
     "homepage": "https://github.com/in2code-de/in2help",
     "authors": [
         {
-            "name": "Martin Huber",
-            "email": "martin.huber@in2code.de"
+            "name": "Marcus Schwemer",
+            "email": "marcus.schwemer@in2code.de",
+            "role": "Developer"
         }
     ],
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": "^9.5 || ^10.4"
+        "typo3/cms-core": "^10.4 || ^11.5"
     },
     "replace": {
         "in2help": "self.version",

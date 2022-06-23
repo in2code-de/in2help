@@ -11,7 +11,7 @@ call_user_func(
             'm1',
             '',
             [
-                'Help' => 'index'
+                \In2code\In2help\Controller\HelpController::class => 'index'
             ],
             [
                 'access' => 'user,group',

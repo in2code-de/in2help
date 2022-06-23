@@ -14,9 +14,6 @@ the backend and use the frontend rendering to display it.
 
 The extension configuration can be set up in the extension configuration.
 
-TYPO3 V8: Extension Manager -> in2help -> Settings
-TYPO3 V9 or newer: Settings -> Extension Configuration -> in2help
-
 Options:
 * PID of Pattern Page: basic.designPatternPid (int+) -> the PID of the page which
 contains the Design Pattern. This a page in the page tree, which is the entry
@@ -43,6 +40,6 @@ setup.override.startModule = help_In2helpM1
 
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
-| 4.0.0      | 2019-04-08 | Task       | Release for TYPO3 9.5                                                        |
-| 5.0.0      | 2020-04-24 | Task       | Release for TYPO3 10.4                                                       |
 | 5.0.1      | 2021-05-19 | Task       | Add github workflow; add extensionkey to composer.json                       |
+| 5.0.0      | 2020-04-24 | Task       | Release for TYPO3 10.4                                                       |
+| 4.0.0      | 2019-04-08 | Task       | Release for TYPO3 9.5                                                        |
