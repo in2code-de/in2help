@@ -41,6 +41,7 @@ setup.override.startModule = help_In2helpM1
 
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
+| 6.0.1      | 2022-06-23 | Bugfix     | Remove vendor name from registerModule                                       |
 | 6.0.0 !!!  | 2022-06-23 | Task       | Support for TYPO3 11 and 10 (9 is dropped now)                               |
 | 5.0.1      | 2021-05-19 | Task       | Add github workflow; add extensionkey to composer.json                       |
 | 5.0.0      | 2020-04-24 | Task       | Release for TYPO3 10.4                                                       |
