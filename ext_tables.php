@@ -6,7 +6,7 @@ if (!defined('TYPO3_MODE')) {
 call_user_func(
     function () {
          \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-            'In2code.in2help',
+            'In2help',
             'help',
             'm1',
             '',
