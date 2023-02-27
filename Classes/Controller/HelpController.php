@@ -3,6 +3,7 @@ declare(strict_types=1);
 namespace In2code\In2help\Controller;
 
 use In2code\In2help\Domain\Service\UrlService;
+use Psr\Http\Message\ResponseInterface;
 use Throwable;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
@@ -15,7 +16,7 @@ class HelpController extends ActionController
     /**
      * @return void
      */
-    public function indexAction()
+    public function indexAction(): ResponseInterface
     {
         $urlService = GeneralUtility::makeInstance(UrlService::class);
         try {
@@ -24,5 +25,6 @@ class HelpController extends ActionController
         } catch (Throwable $exception) {
             $this->view->assign('error', ['message' => $exception->getMessage(), 'code' => $exception->getCode()]);
         }
+        return $this->htmlResponse();
     }
 }
