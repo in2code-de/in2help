@@ -41,6 +41,7 @@ setup.override.startModule = help_In2helpM1
 
 | Version   | Date       | State  | Description                                            |
 |-----------|------------|--------|--------------------------------------------------------|
+| 7.0.1     | 2024-10-02 | Bugfix | Make module accessible for normal editors              |
 | 7.0.0     | 2023-02-27 | Task   | Release for TYPO3 v12                                  |
 | 6.0.1     | 2022-06-23 | Bugfix | Remove vendor name from registerModule                 |
 | 6.0.0 !!! | 2022-06-23 | Task   | Support for TYPO3 11 and 10 (9 is dropped now)         |
