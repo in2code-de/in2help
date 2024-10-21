@@ -35,7 +35,7 @@ ornaments.
 You can set up PageTS or UserTS to force users, to get this module as start
 module.
 
-setup.override.startModule = help_In2helpM1
+setup.override.startModule = web_in2help
 
 ## Changelog
 
