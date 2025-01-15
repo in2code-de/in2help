@@ -14,3 +14,8 @@ nbproject/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Development environment
+.build/
+var/
+config/
