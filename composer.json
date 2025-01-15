@@ -13,10 +13,9 @@
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": "^12.2"
+        "typo3/cms-core": "^13.4"
     },
     "replace": {
-        "in2help": "self.version",
         "typo3-ter/in2help": "self.version"
     },
     "autoload": {
@@ -26,7 +25,29 @@
     },
     "extra": {
         "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".build/public",
             "extension-key": "in2help"
         }
+    },
+    "config": {
+        "vendor-dir": ".build/vendor",
+        "bin-dir": ".build/bin",
+        "sort-packages": true,
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true,
+            "typo3/class-alias-loader": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "require-dev": {
+        "typo3/cms-backend": "^13.4",
+        "typo3/cms-extbase": "^13.4",
+        "typo3/cms-extensionmanager": "^13.4",
+        "typo3/cms-filelist": "^13.4",
+        "typo3/cms-fluid": "^13.4",
+        "typo3/cms-frontend": "^13.4",
+        "typo3/cms-install": "^13.4",
+        "typo3/minimal": "^13"
     }
 }
