@@ -13,7 +13,7 @@
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": "^12.2"
+        "typo3/cms-core": "^12.2 || ^13.4"
     },
     "replace": {
         "in2help": "self.version",

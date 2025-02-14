@@ -8,10 +8,10 @@ $EM_CONF[$_EXTKEY] = [
     'author_email' => 'marcus.schwemer@in2code.de',
     'author_company' => 'in2code GmbH',
     'state' => 'stable',
-    'version' => '7.0.1',
+    'version' => '@dev',
     'constraints' => [
         'depends' => [
-            'typo3' => '12.2.0-12.5.99',
+            'typo3' => '12.2.0-12.5.99 || 13.4.0-13.5.99',
         ],
         'conflicts' => [],
         'suggests' => [],
