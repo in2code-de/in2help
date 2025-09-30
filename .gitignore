@@ -4,6 +4,7 @@ msi.iws
 nbproject/
 .sass-cache/
 .svn/
+composer.lock
 
 
 # OS spezielle Dateien
